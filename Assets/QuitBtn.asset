@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: QuitBtn
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":50.0,"y":50.0},"zoom":0.6,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-400.0,"y":0.0},"guid":"cb45d74d-7f58-47e6-ae22-18022c893c41","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"1"},{"chainable":false,"parameterNames":[],"member":{"name":"Quit","parameterTypes":[],"targetType":"UnityEngine.Application","targetTypeName":"UnityEngine.Application","$version":"A"},"defaultValues":{},"position":{"x":-200.0,"y":0.0},"guid":"95011b52-1841-43cd-b32e-9d2bd687ec2c","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"2"},{"sourceUnit":{"$ref":"1"},"sourceKey":"trigger","destinationUnit":{"$ref":"2"},"destinationKey":"enter","guid":"70fdbf6b-e6aa-45ff-bf69-f1802e04d347","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
