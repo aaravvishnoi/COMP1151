@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PlayBtn
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":50.0,"y":50.0},"zoom":0.6,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-400.0,"y":0.0},"guid":"80d28244-c3dc-4a57-8679-4d8a947e50e5","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"1"},{"type":"System.Int32","value":{"$content":2,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-200.0,"y":120.0},"guid":"1761f873-e0b4-4032-821b-df8431f9cbde","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"2"},{"kind":{"$content":"Scene","$type":"Unity.VisualScripting.VariableKind"},"defaultValues":{"name":{"$content":"gameState","$type":"System.String"},"input":null},"position":{"x":-40.0,"y":0.0},"guid":"9ee6c3f2-8269-425f-8e73-afc6cc910681","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"3"},{"sourceUnit":{"$ref":"1"},"sourceKey":"trigger","destinationUnit":{"$ref":"3"},"destinationKey":"assign","guid":"9b24d493-eaa6-4e70-9293-24256cbd27b5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"2"},"sourceKey":"output","destinationUnit":{"$ref":"3"},"destinationKey":"input","guid":"6fda3244-6c13-4aed-8344-96a5ce02250b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
